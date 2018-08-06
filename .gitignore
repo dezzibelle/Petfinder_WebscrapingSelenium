@@ -1,2 +1,12 @@
 test.txt
-
+*.csv
+petfinder2.py
+petfinder1b.py
+petscraper3.py
+petscraper4.py
+petscraper5.py
+data/
+*.R
+*.Rdata
+*.Rhistory
+*.ipynb_checkpoints/
