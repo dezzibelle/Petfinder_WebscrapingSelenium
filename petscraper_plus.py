@@ -19,9 +19,10 @@ driver2 = webdriver.Chrome()
 
 # Start page to scrape
 #driver.get("https://www.petfinder.com/search/dogs-for-adoption/us/ny/white-plains/")  #100mi radius
-driver.get("https://www.petfinder.com/search/dogs-for-adoption/us/ny/white-plains/?page=" + str(index))
+#driver.get("https://www.petfinder.com/search/dogs-for-adoption/us/ny/white-plains/?page=" + str(index))
+driver.get("https://www.petfinder.com/search/dogs-for-adoption/us/co/denver/?page=" + str(index))
 
-csv_file = open('pets_WhitePlains100mi_' + str(index) + '.csv', 'w')
+csv_file = open('pets_Denver10mi_' + str(index) + '.csv', 'w')
 writer = csv.writer(csv_file)
 
 #STEPS:
